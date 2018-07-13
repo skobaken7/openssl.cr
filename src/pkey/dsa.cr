@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 require "./pkey"
 
 module OpenSSL

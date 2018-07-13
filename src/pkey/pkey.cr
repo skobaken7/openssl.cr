@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 module OpenSSL
   abstract class PKey

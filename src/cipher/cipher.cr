@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 class OpenSSL::Cipher
   class Error < OpenSSL::OpenSSLError

@@ -1,5 +1,5 @@
 require "spec"
-require "../src/openssl"
+require "../src/myopenssl"
 
 describe OpenSSL::HMAC do
   it "should be able to calculate HMAC" do

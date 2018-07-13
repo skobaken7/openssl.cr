@@ -1,5 +1,5 @@
 require "spec"
-require "../src/openssl"
+require "../src/myopenssl"
 
 describe OpenSSL::Digest do
   it "should be able to calculate SHA1" do

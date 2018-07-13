@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 module OpenSSL::X509
   class X509Error < OpenSSLError; end

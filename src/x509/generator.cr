@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 require "../asn1/time"
 
 class OpenSSL::X509::Generator

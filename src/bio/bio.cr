@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 # Stolen from standard library :)
 struct OpenSSL::BIO

@@ -1,5 +1,5 @@
 require "spec"
-require "../src/openssl"
+require "../src/myopenssl"
 
 describe OpenSSL::Cipher do
   it "encrypts/decrypts" do

@@ -1,4 +1,4 @@
-require "../src/openssl"
+require "../src/myopenssl"
 
 include OpenSSL::X509
 

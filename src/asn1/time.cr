@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 class OpenSSL::ASN1::Time
   def initialize(@handle : LibCrypto::ASN1_TIME)

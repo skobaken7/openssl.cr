@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 require "./digest_base"
 
 class OpenSSL::HMAC

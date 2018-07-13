@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 class OpenSSL::MemBIO < IO
   # include IO

@@ -1,5 +1,5 @@
 require "spec"
-require "../src/openssl"
+require "../src/myopenssl"
 
 describe OpenSSL::PKey::RSA do
   it "should be able to generate RSA key" do

@@ -1,4 +1,4 @@
-require "../openssl"
+require "../myopenssl"
 
 module OpenSSL
   class PKey::RSA < PKey

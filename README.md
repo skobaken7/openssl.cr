@@ -67,7 +67,7 @@ This is the basic usage of SSL server:
 
 ```crystal
 require "socket"
-require "../src/openssl"
+require "../src/myopenssl"
 
 include OpenSSL
 
