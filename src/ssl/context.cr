@@ -49,7 +49,7 @@ module OpenSSL::SSL
   class Context
     alias VerifyCallback = (Bool, X509::StoreContext) -> Bool
 
-    @@index = begin
+    @@index : Int32 = begin
                 index = LibSSL.ssl_ctx_get_ex_new_index(0_i64, nil, nil, nil, nil)
                 if index < 0
                   raise SSLError.new "invalid index"
